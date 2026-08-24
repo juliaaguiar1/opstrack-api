@@ -35,5 +35,13 @@ def tickets():
     })
 
 
+@app.route("/sobre", methods=["GET"])
+def sobre():
+    return jsonify({
+        "nome": "OpsTrack API",
+        "versao": "1.0.0"
+    })
+
+
 if __name__ == "__main__":
     app.run(debug=True)
