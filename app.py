@@ -43,5 +43,12 @@ def sobre():
     })
 
 
+@app.route("/versao", methods=["GET"])
+def versao():
+    return jsonify({
+        "versao": "1.0.0"
+    })
+
+
 if __name__ == "__main__":
     app.run(debug=True)
