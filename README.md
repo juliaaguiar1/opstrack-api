@@ -39,4 +39,4 @@ O bloco `if __name__ == '__main__': app.run(debug=True)` não é acionado pelo c
 
 A atividade pede: suíte versionada por Pull Request, `pytest.ini`, `requirements-dev.txt`, README com instruções e justificativa da cobertura, pelo menos dois testes novos, repositório público e tag `marco-1` na `main` após o merge.
 
-**O ZIP não contém o histórico Git, nem prova de testes executados ou de publicação no GitHub.** Siga `INSTRUCOES_ENTREGA.txt` e registre os resultados reais antes de enviar.
+
