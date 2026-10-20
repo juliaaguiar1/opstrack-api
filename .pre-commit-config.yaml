@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: flake8
+        name: Verificar estilo com flake8
+        entry: python -m flake8 app.py tests
+        language: system
+        pass_filenames: false
+      - id: pytest
+        name: Executar testes automatizados
+        entry: python -m pytest --cov=app --cov-fail-under=85
+        language: system
+        pass_filenames: false
