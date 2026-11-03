@@ -1,3 +1,5 @@
+![CI](https://github.com/juliaaguiar1/opstrack-api/actions/workflows/ci.yml/badge.svg)
+
 # OpsTrack API — Marco 1
 
 **Faculdade:** FATEC  
